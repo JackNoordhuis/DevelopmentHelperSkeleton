@@ -1,8 +1,9 @@
 <?php
 
-namespace yourname\pluginname\command;
+namespace yourname\pluginname\command\commands;
 
 use pocketmine\command\CommandSender;
+use yourname\pluginname\command\DispatchableCommand;
 
 class ExampleCommand extends DispatchableCommand {
 
